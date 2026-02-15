@@ -31,5 +31,5 @@ int main(){
     root->right->right = new Node(7);
     int count = 0;
     inorder(root,count);
-    cout<<count;
+    cout<<count;  
 }

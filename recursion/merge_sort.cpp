@@ -2,8 +2,8 @@
 using namespace std;
 
 void merge(int *arr, int start, int end){
-    int mid = (start/end)/2;
-    int length1 = mid - start - 1;
+    int mid = (start+end)/2;
+    int length1 = mid - start + 1;
     int length2 = end - mid;
 
     int *arr1 = new int[length1];

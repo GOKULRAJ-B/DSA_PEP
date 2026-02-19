@@ -23,5 +23,6 @@ public:
         root->left = root->right;
         root->right = temp;
         return root;
+        
     }
 };

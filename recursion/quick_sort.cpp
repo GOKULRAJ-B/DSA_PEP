@@ -5,7 +5,7 @@ int partition(int arr[], int start, int end){
 
     int count=0;
     for(int i = start+1; i<=end; i++){
-        if(arr[i] <= pivot) count++;
+        if(arr[i] <= pivot) count++;                                    //{4,5,2,1,7,3,8}
     }
     int pivotIndex = start+count;
     swap(arr[start],arr[pivotIndex]);

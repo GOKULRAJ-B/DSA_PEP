@@ -14,6 +14,8 @@ public:
         for(char i : s){
             int a = (int)i;
             occur[a]++;
+
+            
         }
         for(char i : t){
             int a = (int)i;

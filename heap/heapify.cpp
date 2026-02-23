@@ -21,9 +21,6 @@ void buildMaxHeap(vector<int> &arr, int n){
     }
 }
 
-
-
-
 int main(){
     vector<int>arr = {10,3,5,30,2,8,15};
     buildMaxHeap(arr,arr.size());
